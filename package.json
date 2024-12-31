@@ -9,18 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@trigger.dev/react-hooks": "^3.3.5",
+    "@trigger.dev/sdk": "^3.3.5",
+    "lucide-react": "^0.468.0",
+    "next": "14.2.18",
+    "openai": "^4.76.0",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.18"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@trigger.dev/build": "^3.3.5",
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.18",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.18"
+    "typescript": "^5"
   }
 }
